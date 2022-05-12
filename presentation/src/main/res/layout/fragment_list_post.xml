@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="listPostVM"
+            type="com.omolleapaza.peruapps.peruappstest.ui.features.list_post.ListPostViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/appCompatTextView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_fragment_list"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingVertical="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appCompatTextView2"
+            app:onRefreshListener="@{() -> listPostVM.refreshLoadedPostList()}"
+            app:refreshing="@{listPostVM.state.refreshing}"
+            tools:context=".ui.features.list_post.ListPostFragment">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <include
+                    android:id="@+id/include_list"
+                    layout="@layout/view_post_list"
+                    app:viewState="@{listPostVM.state}" />
+
+                <include
+                    android:id="@+id/include_list_empty"
+                    layout="@layout/view_post_list_empty"
+                    app:viewState="@{listPostVM.state}" />
+
+                <include
+                    android:id="@+id/include_list_error"
+                    layout="@layout/view_post_list_error"
+                    app:viewState="@{listPostVM.state}" />
+
+                <include
+                    android:id="@+id/include_list_loading"
+                    layout="@layout/view_post_list_loading"
+                    app:viewState="@{listPostVM.state.loading}" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

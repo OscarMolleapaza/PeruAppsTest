@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="detailVM"
+            type="com.omolleapaza.peruapps.peruappstest.ui.features.post_detail.PostDetailViewModel" />
+    </data>
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            app:onRefreshListener="@{() -> detailVM.reloadSwipe.invoke()}"
+            app:refreshing="@{detailVM.state.refreshing}"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:visible="@{detailVM.state.loaded}">
+                    <WebView
+                        android:id="@+id/webView"
+                        app:visible="@{detailVM.state.loaded}"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:loadUrl="@{detailVM.urlArgs}"/>
+                </androidx.core.widget.NestedScrollView>
+
+                <include
+                    android:id="@+id/include_list_error"
+                    layout="@layout/view_web_no_work"
+                    app:state="@{detailVM.state.error}"/>
+
+                <include
+                    android:id="@+id/include_list_loading"
+                    layout="@layout/view_post_list_loading"
+                    app:viewState="@{detailVM.state.loading}"/>
+
+            </FrameLayout>
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</layout>

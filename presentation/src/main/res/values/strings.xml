@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PeruApps</string>
+
+    <string name="tv_delete_item">Borrar</string>
+    <string name="tv_back_title">Atras</string>
+
+    <string name="error_permission_denied">Permiso denegado.</string>
+    <string name="error_failure_none">Algo inesperado sucedió. Contacta a soporte.</string>
+    <string name="error_failure_network_connection_lost_suddenly">La conexión a internet se perdió repentinamente.</string>
+    <string name="error_failure_no_network_detected">No hay conexión a internet. Inténtalo de nuevo más tarde.</string>
+    <string name="error_failure_ssl">Error de SSL.</string>
+    <string name="error_failure_time_out">Se agotó el tiempo de espera con el servidor.</string>
+    <string name="error_failure_time_out_file">No se logro cargar las imagenes. Intentalo nuevamente.</string>
+    <string name="error_general">Por favor, contacta a soporte.</string>
+    <string name="error_failure_uncaught">Ocurrio un error inesperado. Vuelve a intentarlo o contacta a soporte.</string>
+    <string name="text_retry">Reintentar</string>
+    <string name="profile_tv_to_edit">Editar</string>
+    <string name="error_file_path_null">Hubo un problema al obtener el archivo. Intenta con otro.</string>
+    <string name="error_file_size">El archivo no debe pesar mas de 5 MB.</string>
+    <string name="error_location_permission_not_granted">Necesitas otorgar el permiso de ubicacion para continuar.</string>
+
+    <string name="tv_failed_connection">Trabajando sin conexión</string>
+    <string name="tv_successful_connection">Información actualizada con éxito</string>
+    <string name="tv_line">-</string>
+    <string name="tv_empty_list">No se encontraron datos guardados.</string>
+
+
+    <string name="tv_delete">Borrar</string>
+
+    <string name="tv_ago">atras</string>
+    <string name="tv_recently_ago">Hace un momento.</string>
+    <string name="tv_seconds">Segundos</string>
+    <string name="tv_minutes">Minutos</string>
+    <string name="tv_hour">Horas</string>
+    <string name="tv_day">Dias</string>
+    <string name="tv_year">Años</string>
+    <string name="tv_month">Meses</string>
+    <string name="tv_week">Semanas</string>
+    <string name="title_fragment_list">Technical Test</string>
+</resources>

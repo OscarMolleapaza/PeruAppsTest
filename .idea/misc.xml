@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/fragment_list_post.xml" value="0.13020833333333334" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/fragment_post_detail.xml" value="0.152" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/list_item_character.xml" value="0.4" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/list_item_error.xml" value="0.176" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/list_item_loading.xml" value="0.176" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/list_item_post.xml" value="0.2" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/view_characters_list.xml" value="0.1265625" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/view_characters_list_loading.xml" value="0.1265625" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/view_connection_status.xml" value="0.13020833333333334" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/view_post_list.xml" value="0.152" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/view_post_list_empty.xml" value="0.1265625" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/view_post_list_error.xml" value="0.264" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/view_post_list_loading.xml" value="0.152" />
+        <entry key="..\:/Proyects/ReignTechnicalTask/presentation/src/main/res/layout/view_web_no_work.xml" value="0.176" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.202" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/drawable/ic_failed_connection.xml" value="0.202" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/drawable/ic_launcher_background.xml" value="0.202" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/drawable/ic_logo.xml" value="0.202" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/drawable/ic_logo_black.xml" value="0.202" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/drawable/ic_successful_connection.xml" value="0.202" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/fragment_list_post.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/fragment_post_detail.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/list_item_loading.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/list_item_post.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/view_connection_status.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/view_post_list.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/view_post_list_empty.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/view_post_list_error.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/view_post_list_loading.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/layout/view_web_no_work.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/PeruAppsMain/presentation/src/main/res/mipmap-anydpi-v26/ic_logo_app.xml" value="0.202" />
+        <entry key="..\:/Users/ommf_/Documents/PruebaTecnica/Reign-Technical-Test-main/presentation/src/main/res/layout/list_item_post.xml" value="0.24791666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

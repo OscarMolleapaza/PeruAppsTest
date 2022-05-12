@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PeruApps</string>
+
+    <string name="tv_delete_item">Delete</string>
+    <string name="tv_back_title">Back</string>
+
+    <string name="error_permission_denied">Permission denied.</string>
+    <string name="error_failure_none">Something unexpected happened. Contact support.</string>
+    <string name="error_failure_network_connection_lost_suddenly">The internet connection was suddenly lost.</string>
+    <string name="error_failure_no_network_detected">There is no Internet conection. Try again later.</string>
+    <string name="error_failure_ssl">Error SSL.</string>
+    <string name="error_failure_time_out">The server timed out.</string>
+    <string name="error_failure_time_out_file">The images could not be loaded. Please try again.</string>
+    <string name="error_general">Please contact support.</string>
+    <string name="error_failure_uncaught">An unexpected error occurred. Please try again or contact support.</string>
+    <string name="text_retry">Retry</string>
+    <string name="profile_tv_to_edit">Edit</string>
+    <string name="error_file_path_null">There was a problem getting the file. Try another.</string>
+    <string name="error_file_size">The file should not be larger than 5 MB.</string>
+    <string name="error_location_permission_not_granted">You need to grant the location permission to continue.</string>
+
+
+    <string name="tv_failed_connection">Working offline</string>
+    <string name="tv_successful_connection">Information updated successfully</string>
+
+    <string name="tv_line">-</string>
+    <string name="tv_empty_list">No saved data found.</string>
+
+    <string name="tv_delete">Delete</string>
+
+    <string name="tv_ago">ago</string>
+    <string name="tv_recently_ago">a few seconds ago</string>
+    <string name="tv_seconds">Seconds</string>
+    <string name="tv_minutes">Minutes</string>
+    <string name="tv_hour">Hours</string>
+    <string name="tv_day">Days</string>
+    <string name="tv_year">Years</string>
+    <string name="tv_month">Months</string>
+    <string name="tv_week">Week</string>
+</resources>

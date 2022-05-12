@@ -10,7 +10,7 @@ Technical Test Android
 </p>
 
 <p align="center">
-<img src="/assets/screenshot_2.png"/>
+<img src="/assets/screenshoot_2.png"/>
 </p>
 
 ## Download
@@ -44,3 +44,14 @@ Is based on the MVVM architecture and the Repository pattern.
 Modules are collection of source files and build settings that allow you to divide a project into discrete units of functionality. In this case apart from dividing by functionality/responsibility, existing the following dependence between them:
 
 <img src="/assets/architecture.JPG" align="right" width="32%"/>
+
+- Data
+  - Base - Used for the base functions of the service call.
+  - Constants - Database constants
+  - DI - Dependency injection, datasource, localdatabase, mappers, migrations, network and repository modules.
+  - extensions - Ensures that the mapper (block) inside the inline function be on dispatchers.
+  - Mappers
+  - Repository - Http request, services calls
+  - Source - Datasource, local and remote
+  - Utils - Providers, Network Available
+

@@ -34,3 +34,12 @@ Go to the [Link](https://drive.google.com/file/d/1GwWbHszwJcempvpCFNP4iYtxmbYXv_
 ## Architecture
 Is based on the MVVM architecture and the Repository pattern.
 
+<p align="center">
+<img src="/assets/architecture_2.png"/>
+</p>
+
+
+## Modules
+Modules are collection of source files and build settings that allow you to divide a project into discrete units of functionality. In this case apart from dividing by functionality/responsibility, existing the following dependence between them:
+
+<img src="/assets/architecture.JPG" align="right" width="32%"/>

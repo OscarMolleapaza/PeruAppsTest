@@ -49,9 +49,27 @@ Modules are collection of source files and build settings that allow you to divi
   - Base - Used for the base functions of the service call.
   - Constants - Database constants
   - DI - Dependency injection, datasource, localdatabase, mappers, migrations, network and repository modules.
-  - extensions - Ensures that the mapper (block) inside the inline function be on dispatchers.
+  - Extensions - Ensures that the mapper (block) inside the inline function be on dispatchers.
   - Mappers
   - Repository - Http request, services calls
   - Source - Datasource, local and remote
   - Utils - Providers, Network Available
+
+- Domain
+  - Base - Used for the base use cases
+  - DI - Dependency injection, use cases modules
+  - Extensions - use toSuccess and toError functions.
+  - Model - data class news
+  - Repository - Http request, services calls
+  - UseCase - getPosts and deletePosts uses cases
+  - Utils - Either and Failure
+
+- Presentation
+  - DI - Dependency injection, list, utils and viewmodel modules.
+  - Enums - enum class
+  - Extensions - view extensions
+  - UI - baseviews, customviews, databinding, features, viewmodels, activitys, fragments, adapters, states
+  - Utils_Class - Events
+
+
 

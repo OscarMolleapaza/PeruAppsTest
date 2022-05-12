@@ -9,6 +9,10 @@ Technical Test Android
 <img src="/assets/screenshot.png"/>
 </p>
 
+<p align="center">
+<img src="/assets/screenshot_2.png"/>
+</p>
+
 ## Download
 Go to the [Link](https://drive.google.com/file/d/1GwWbHszwJcempvpCFNP4iYtxmbYXv_SB/view?usp=sharing) to download the APK.
 
@@ -27,9 +31,6 @@ Go to the [Link](https://drive.google.com/file/d/1GwWbHszwJcempvpCFNP4iYtxmbYXv_
   - Repository Pattern
 - [Retrofit2 & OkHttp3](https://github.com/square/retrofit) - Construct the REST APIs.
 - [Material-Components](https://github.com/material-components/material-components-android)
-
-
-<img src="/assets/architecture.JPG" align="right" width="32%"/>
 
 ## Architecture
 Is based on the MVVM architecture and the Repository pattern.

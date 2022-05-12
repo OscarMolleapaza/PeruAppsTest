@@ -20,7 +20,7 @@ class ListPostMapperImpl : ListPostMapper {
                     author = it.author,
                     created_at = it.created_at,
                     story_id = (it.objectID?.toInt() ?: it.story_id ?: Date().time.toInt()),
-                    story_url = it.story_url ?: it.url ?: "https://google.com",
+                    story_url = it.story_url ?: it.url ?: "https://github.com/OscarMolleapaza",
                     story_title = it.story_title ?: it.title ?: "Sin titulo",
                     visible = true
                 )
@@ -35,7 +35,7 @@ class ListPostMapperImpl : ListPostMapper {
         return requests.hits.map {
             PostEntity(
                 id = (it.objectID?.toInt() ?: it.story_id ?: Date().time).toString(),
-                storyUrl = it.story_url ?: it.url ?: "https://google.com",
+                storyUrl = it.story_url ?: it.url ?: "https://github.com/OscarMolleapaza",
                 storyTitle = it.story_title ?: it.title ?: "Sin titulo",
                 createdAt = it.created_at,
                 author = it.author,
